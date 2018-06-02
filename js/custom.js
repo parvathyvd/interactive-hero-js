@@ -22,3 +22,28 @@ else if(scoreB > scoreA)
 else{
     console.log('They are equal');
 }
+
+
+function changeResult(){
+
+    var heading1 = document.getElementById('heading1').value;
+
+    var main = document.getElementsByClassName('heading')[0];
+
+    main.innerHTML = heading1;
+
+    var heading2 = document.getElementById('heading2').value;
+
+    var lead = document.getElementsByClassName('lead')[0];
+
+    lead.innerHTML = heading2;
+
+    var button = document.getElementsByClassName('button')[0];
+
+    var buttonValue = document.getElementById('buttonValue').value;
+
+    button.innerHTML = buttonValue;
+
+    
+}
+
