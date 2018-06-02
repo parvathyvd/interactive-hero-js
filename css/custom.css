@@ -40,7 +40,7 @@ img {
         outline: none; }
       .container .form-fields input::-webkit-input-placeholder {
         color: rgba(0, 0, 0, 0.3);
-        padding: .2rem 1rem;
+        padding: .2rem .5rem;
         text-indent: 1rem; }
 
 .hero-section {
@@ -69,3 +69,14 @@ button {
   background: #a00b9e;
   border: none;
   border-radius: .3rem; }
+
+.image-fields {
+  margin: 2rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 10rem; }

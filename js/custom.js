@@ -1,28 +1,5 @@
 
 
-var playerA = 1.50;
-var playerB = 2.43;
-
-var ageA = 32;
-var ageB =24;
-
-var scoreA = playerA + (5* ageA);
-console.log(scoreA);
-var scoreB = playerB + (5* ageB);
-console.log(scoreB);
-
-if(scoreA > scoreB)
-{
-    console.log('scoreA wins');
-}
-else if(scoreB > scoreA)
-{
-    console.log('scoreB wins');
-}
-else{
-    console.log('They are equal');
-}
-
 
 function changeResult(){
 
@@ -44,6 +21,34 @@ function changeResult(){
 
     button.innerHTML = buttonValue;
 
+    var heroImage = document.getElementsByClassName('heroImage')[0];
+
+   
+   
     
+}
+
+function changePic1()
+{
+
+    var img1 = document.getElementsByClassName('img1')[0];
+
+    var img1Src = img1.src;
+
+    var heroImage = document.getElementsByClassName('heroImage')[0];
+
+    heroImage.src = img1Src;
+}
+function changePic2()
+{
+    var img2 = document.getElementsByClassName('img2')[0];
+
+    var img2Src = img2.src;
+
+    var heroImage = document.getElementsByClassName('heroImage')[0];
+
+    heroImage.src = img2Src;
+
+
 }
 

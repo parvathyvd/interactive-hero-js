@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Interactive Hero section using JS</title>
 
     <!-- Tether core CSS -->
     <link href="css/tether/tether.min.css" rel="stylesheet">
@@ -32,10 +32,10 @@
 
     <div class="container">
         <div class="hero-section">
-                <img src="img/cta-bg.jpg" alt="">
+                <img class="heroImage" src="img/cta-bg.jpg" alt="">
             <div class="title-block">
                     <h1 class="heading">Full stack developer</h1>
-                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, libero!</p>
+                    <p class="lead">Parvathy Vazhoor - Do what you love to do :)</p>
                     <button class="button">More details</button>
             </div>
         </div>
@@ -46,10 +46,15 @@
                 
                 <input type="text" name="button" id="buttonValue" placeholder="insert your button text"><br/>
                 
-                <input type="submit" name="result" onclick="changeResult()" value="Change">  
-        </div>
-        
+                 <p class="">Change the hero background with the picture from below</p>
+            <div class="image-fields">
+                <img src="img/cta-bg.jpg" class="img1" alt="" width="200" onclick= "changePic1()";>
+                <img src="img/features-bg.jpg" class="img2" width="200" onclick= "changePic2()"; alt="">
 
+            </div>
+                <input type="submit" name="result" class="changeButton" onclick="changeResult()" value="Change">  
+
+        </div>
     </div>
 
 
